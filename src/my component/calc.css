@@ -1,0 +1,21 @@
+.phone{
+    position: absolute;
+    top: 0%;
+    left: 340px;
+    height: 100vh;
+    width:  50vw;
+    background-image: url("../img/phone.png");
+    background-position: center;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.bg-img{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url("../sound/s1.mp3");
+    background-size: cover;
+    background-position: center; */
+    background-image: linear-gradient(orange,orangered);
+}
