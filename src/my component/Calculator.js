@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { RiDeleteBack2Line } from "react-icons/ri";
 import sound from "./s1.mp3"
 import "./calc.css"
@@ -70,7 +70,7 @@ function Calculator() {
       let ans = check(result,value)
 
         setResult(ans);
-        if (ans != "0") {
+        if (ans !== "0") {
           calculate(ans);
         }
         };
@@ -130,7 +130,7 @@ function Calculator() {
       playAudio();
       let ans = result.length === 1?"0":result .slice(0,-1);
       setResult(ans)
-      if(ans != "0"){
+      if(ans !== "0"){
         calculate(ans);
       }
     }
